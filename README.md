@@ -2,7 +2,7 @@
 
 # Sistema Inteligente de Gestão de Agendamentos
 
-Aplicação desktop para organizar clientes, profissionais, serviços e horários de uma barbearia, reduzindo conflitos e centralizando informações operacionais.
+Sistema desenvolvido para organizar clientes, profissionais, serviços e horários de uma barbearia, reduzindo conflitos e centralizando informações operacionais.
 
 ## Problema
 
@@ -11,6 +11,12 @@ Agendamentos registrados manualmente ficam sujeitos a conflitos de horário, per
 ## Objetivo
 
 Centralizar o cadastro de clientes, profissionais e serviços, organizar a agenda e impedir que um profissional receba dois atendimentos no mesmo horário.
+
+## Projeto original
+
+O projeto original foi desenvolvido para uma barbearia utilizando **Python**, **MySQL**, **Figma** e **Visual Studio**. O Figma apoiou a criação e organização das interfaces, enquanto Python e MySQL foram utilizados na aplicação e na persistência dos dados.
+
+Como os arquivos originais não estão mais disponíveis, a implementação publicada neste repositório é uma reconstrução funcional criada em 2026, preservando o propósito e as principais tecnologias do sistema.
 
 ## Solução
 
@@ -90,6 +96,8 @@ erDiagram
 - MySQL
 - SQL
 - mysql-connector-python
+- Figma — prototipação do projeto original
+- Visual Studio — ambiente utilizado no projeto original
 - unittest
 - GitHub Actions
 
@@ -171,7 +179,7 @@ Os testes verificam validação de dados, status permitidos e conflito de horár
 
 ## Limitações
 
-- reconstrução demonstrativa, não o código original de 2024;
+- a implementação publicada é uma reconstrução funcional, não o código original;
 - interface voltada a uso local;
 - sem autenticação ou níveis de acesso;
 - sem notificações automáticas;
